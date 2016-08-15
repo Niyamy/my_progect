@@ -1,4 +1,10 @@
-table , td, tr{
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+body{
+    font-family: 'Lato', sans-serif;
+
+}
+table, td, tr{
     border: 1px solid;
     border-collapse: collapse;
 }
@@ -7,4 +13,23 @@ tr{
 }
 td{
     width: 90px;
+}
+#Logo{
+    font-size: 42px;
+}
+#menu{
+    display: inline-block;
+    float: right;
+    margin-top: 24px;
+}
+#menu ul li {
+    display: inline-block;
+}
+#footer_menu{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+#footer_menu ul li {
+    display: inline-block;
 }
