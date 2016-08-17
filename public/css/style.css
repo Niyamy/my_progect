@@ -24,6 +24,12 @@ article{
     text-align: center;
     opacity: .2;
 }
+.button{
+    color: #5c6bc0;
+}
+.hashtags{
+    opacity: .3;
+}
 nav{
     display: inline-block;
     float: right;
@@ -42,6 +48,7 @@ footer{
     display: inline-block;
     width: 100%;
     text-align: center;
+    color: white;
 }
 .footer_menu ul li {
     display: inline-block;
