@@ -2,7 +2,49 @@
 
 body{
     font-family: 'Lato', sans-serif;
-
+    background: #f7f9fc;
+}
+header{
+    margin: 0 100px;
+}
+article{
+    background: #ffffff;
+    box-shadow: 0 0px 25px -10px rgba(0,0,0, .2);
+    margin-bottom: 50px;
+}
+.article_footer{
+    background: #ffffff;
+}
+#Logo{
+    font-size: 42px;
+    display: inline-block;
+    margin-top: 80px;
+}
+#Logo_footer{
+    text-align: center;
+    opacity: .2;
+}
+nav{
+    display: inline-block;
+    float: right;
+    margin-top: 90px;
+}
+nav ul li {
+    display: inline-block;
+}
+main{
+    margin: 80px 100px;
+}
+footer{
+    background: #5c6bc0;
+}
+.footer_menu{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.footer_menu ul li {
+    display: inline-block;
 }
 table, td, tr{
     border: 1px solid;
@@ -13,23 +55,4 @@ tr{
 }
 td{
     width: 90px;
-}
-#Logo{
-    font-size: 42px;
-}
-#menu{
-    display: inline-block;
-    float: right;
-    margin-top: 24px;
-}
-#menu ul li {
-    display: inline-block;
-}
-#footer_menu{
-    display: inline-block;
-    width: 100%;
-    text-align: center;
-}
-#footer_menu ul li {
-    display: inline-block;
 }
