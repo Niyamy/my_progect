@@ -13,9 +13,18 @@ p {
     font-size: 17px;
     margin: 16px 0 0 0;
 }
+a{
+    color: #5c6bc0;
+}
 h2{
     font-size: 40px;
     margin-top: 0;
+}
+hr{
+    color: #000;
+    opacity: .1;
+    margin-bottom: 25px;
+    margin-top: 25px;
 }
 article img{
     margin: -5px 0 0 -98px;
@@ -85,6 +94,13 @@ a.adress:hover{
     text-transform: uppercase;
     color: #5c6bc0;
     margin-top: 56px;
+    padding: 15px 25px;
+    border: solid transparent 1px;
+}
+.button:hover{
+    color: #5c6bc0;
+    border: solid 1px #eeeeee;
+    transition: all 0.5s ease;
 }
 .hashtags{
     opacity: .3;
@@ -241,6 +257,18 @@ blockquote:before{
     background: url("../img/Search.png") center no-repeat;
     width: 16px;
     height: 16px;
+    padding: 0;
+    margin: 0;
+}
+.footer_menu ul li a:hover.icon_search{
+    display: inline-block;
+    background: url("../img/Search.png") center no-repeat;
+    width: 16px;
+    height: 16px;
+    border: none;
+    padding: 0;
+    margin: 0;
+    background-color: #5360ac;
 }
 .date {
     color: #bdbdbd;
