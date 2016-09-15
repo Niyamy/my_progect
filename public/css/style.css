@@ -15,6 +15,7 @@ p {
 }
 h2{
     font-size: 40px;
+    margin-top: 0;
 }
 article img{
     margin: -5px 0 0 -98px;
@@ -28,6 +29,32 @@ article{
 }
 .article_footer{
     background: #ffffff;
+}
+address{
+    display: inline;
+    opacity: 0.4;
+    color: #fff;
+    font-size: 14px;
+}
+a.adress:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+#icons{
+    display: block;
+    margin: 40px auto 0;
+}
+#icons a img{
+    margin-top: 4px;
+}
+#icons a{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin: 0 8px;
+}
+#icons a:hover{
+    background: #5360ac;
 }
 .text {
     margin: 0 0;
@@ -106,10 +133,10 @@ footer{
     margin-top: 50px;
     padding: 70px 0 80px 0;
 }
-.footer_logo {
+.Logo_footer {
     display: block;
 }
-.footer_logo a{
+.Logo_footer a{
     text-decoration: none;
     font-weight: bold;
     font-size: 36px;
@@ -134,38 +161,86 @@ footer hr{
     border-color: #000;
     opacity: 0.1;
 }
+.post_area {
+    display: block;
+    position: relative;
+}
+.post_area ul li{
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.post_area:before{
+    content: "";
+    display: block;
+    width: 758px;
+    height: 2px;
+    background: #eeeeee;
+    margin: 40px 0;
+}
+.quote{
+    font-style: italic;
+    font-weight: 100;
+}
+.quote:before{
+    display: block;
+    content: "";
+    margin: 0 0 -25px -50px;
+}
+.cit{
+    display: inline-block;
+    color: #bdbdbd;
+    font-size: 14px;
+    margin: 15px 0 0 10px;
+}
+blockquote{
+    color: #e3e3e3;
+    font-size: 20px;
+}
+blockquote:before{
+    float: left;
+    content: "";
+    display: block;
+    width: 2px;
+    height: 76px;
+    background: #e3e3e3;
+    margin: 0 28px 0 0;
+}
 .fcontent{
     width: 758px;
     margin: 0 auto;
     padding: 0 ;
 }
-#footer_menu{
+.footer_menu{
     display: inline-block;
-    margin-top: 24px;
+    margin: 24px 24px;
+    height: 38px;
+    text-decoration: none;
 }
-#footer_menu ul{
-    margin:  0;
-    padding: 0;
-    list-style: none;
-    font-size: 16px;
-}
-#footer_menu ul li{
+.footer_menu ul li{
     display: inline-block;
     font-weight: bold;
-}
-#footer_menu ul li a{
-    text-decoration: none;
     font-size: 16px;
+    padding: 5px;
+}
+.footer_menu ul li a{
+    display: block;
+    border-bottom: none;
+    text-decoration: none;
     color: #fff;
     margin: 0 20px 0 0;
 }
-#footer_menu ul li a:hover {
-    color: #fff !important;
+.footer_menu ul li a:hover {
     padding-bottom: 6px;
     border-bottom: 2px solid #fff;
 }
-#footer_menu ul li a.inactive {
+.footer_menu ul li a.nonactive {
     color: #a9afdb;
+}
+.footer_menu ul li a.icon_search{
+    display: inline-block;
+    background: url("../img/Search.png") center no-repeat;
+    width: 16px;
+    height: 16px;
 }
 .date {
     color: #bdbdbd;
