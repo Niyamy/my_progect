@@ -142,6 +142,12 @@ nav ul li a.nonactive {
 li a:disabled {
     color: #bdbdbd;
 }
+nav a.icon_search{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("../img/header_Search.png");
+}
 footer{
     display: block;
     background: #5c6bc0;
@@ -252,7 +258,7 @@ blockquote:before{
 .footer_menu ul li a.nonactive {
     color: #a9afdb;
 }
-.footer_menu ul li a.icon_search{
+.footer_menu a.icon_search{
     display: inline-block;
     background: url("../img/Search.png") center no-repeat;
     width: 16px;
@@ -260,7 +266,7 @@ blockquote:before{
     padding: 0;
     margin: 0;
 }
-.footer_menu ul li a:hover.icon_search{
+.footer_menu a:hover.icon_search{
     display: inline-block;
     background: url("../img/Search.png") center no-repeat;
     width: 16px;
