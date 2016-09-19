@@ -20,6 +20,10 @@ h2{
     font-size: 40px;
     margin-top: 0;
 }
+h3{
+    font-size: 40px;
+    font-weight: lighter;
+}
 h4{
     font-size: 30px;
     color: #000;
@@ -75,7 +79,11 @@ a.adress:hover{
 }
 .text {
     margin: 0 0;
-
+}
+.found{
+    font-size: 25px;
+    color: black;
+    opacity: .5;
 }
 .text:before{
     content: "";
@@ -386,6 +394,7 @@ blockquote:before{
     margin: 50px 0 0 0;
 }
 input{
+    display: inline-block;
     resize: none;
     background: #f7f9fc;
     font-size: 20px;
@@ -395,6 +404,54 @@ input{
     border: none;
     text-indent: 20px;
     margin-bottom: 20px;
+}
+input:focus:invalid {
+    background: #fdd;
+}
+input:focus:valid {
+    background: #dfd;
+}
+
+:focus::-webkit-input-placeholder {opacity: 1; transition: opacity 0.5s ease;}
+:focus::-moz-placeholder          {opacity: 1; transition: opacity 0.5s ease;}
+:focus:-moz-placeholder           {opacity: 1; transition: opacity 0.5s ease;}
+:focus:-ms-input-placeholder      {opacity: 1; transition: opacity 0.5s ease;}
+:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.5s ease;}
+:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.5s ease;}
+:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.5s ease;}
+:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.5s ease;}
+
+
+.submit input{
+    width: auto;
+    text-indent: 0;
+    background: none;
+    margin: 0;
+}
+.submit input:focus:invalid{
+    background: none;
+}
+.submit input:focus:valid{
+    background: none;
+}
+.send{
+    display: inline-block;
+    font-size: 21px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #5c6bc0;
+    margin-top: 66px;
+    padding: 15px 25px;
+    border: solid transparent 1px;
+}
+.send:hover{
+    color: #5c6bc0;
+    border: solid 1px #eeeeee;
+    transition: all 0.5s ease;
+}
+input.send{
+    margin-top: 25px;
 }
 textarea{
     width:calc(100% - 40px);
